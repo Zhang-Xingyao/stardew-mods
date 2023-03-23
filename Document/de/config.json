@@ -1,6 +1,6 @@
 {
   "Enabled": true,
-  "AutomationInterval": 60,
+  "AutomationInterval": 7,
   "Controls": {
     "ToggleOverlay": "U"
   },

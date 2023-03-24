@@ -4,7 +4,7 @@
     *********/
     // main options
     "config.title.main-options": "Haupt-Optionen",
-    "config.enabled.name": "Aktiviert",
+    "config.enabled.name": "Aktiviert测试添加这几个字",
     "config.enabled.desc": "Ob automatisierte Funktionen verwendet werden sollen.Wenn deaktiviert werden Maschinen nicht automatisiert und das Overlay erscheint nicht.",
     "config.automation-interval.name": "Automatisierungs-Intervall",
     "config.automation-interval.desc": "Die Anzahl der Ticks zwischen den einzelnen Automatisierungsprozessen (60: 1x pro Sekunde, 120: alle zwei Sekunden usw.).",

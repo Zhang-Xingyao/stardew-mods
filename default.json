@@ -1,0 +1,43 @@
+﻿{
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    "config.title.main-options": "主要选项1",
+    "config.enabled.name": "启用",
+    "config.enabled.desc": "是否启用自动化功能。如果禁用此选项，将不会自动化任何机器，并且叠加层也不会显示。",
+    "config.automation-interval.name": "自动化间隔",
+    "config.automation-interval.desc": "每次自动化过程之间的滴答数（60 为每秒一次，120 为每两秒一次，依此类推）。",
+    "config.toggle-overlay-key.name": "切换叠加层键",
+    "config.toggle-overlay-key.desc": "用于切换自动化叠加层的按键。",
+    "config.warn-for-missing-bridge-mod.name": "缺少桥接模组时警告",
+    "config.warn-for-missing-bridge-mod.desc": "是否在启动时记录警告，如果您安装了一个需要单独兼容性补丁的自定义机器模组，但未安装该补丁。",
+
+    // connectors
+    "config.title.connectors": "启用的连接器",
+    "config.connector.desc": "是否 {itemName} 将机器和箱子连接在一起。",
+    "config.custom-connectors.name": "自定义连接器",
+    "config.custom-connectors.desc": "用于将相邻机器连接在一起的物品的准确英文名称。您可以用逗号列出多个物品。", // note: connector names must be English even when playing in other languages
+
+    // Junimo hut options
+    "config.title.junimo-huts": "朱尼莫小屋行为",
+    "config.junimo-hut-gems.name": "宝石",
+    "config.junimo-hut-gems.desc": "Junimo小屋应如何处理宝石物品。“自动检测”将忽略它们。",
+    "config.junimo-hut-fertilizer.name": "肥料",
+    "config.junimo-hut-fertilizer.desc": "祝尼魔小屋应如何处理肥料物品。如果安装了Better Junimos，'自动检测'将忽略它们，否则将它们从棚屋移动到连接的箱子中。",
+    "config.junimo-hut-seeds.name": "种子",
+    "config.junimo-hut-seeds.desc": "祝尼魔小屋应如何处理种子物品。如果安装了Better Junimos，'自动检测'将忽略它们，否则将它们从棚屋移动到连接的箱子中。",
+
+    // Junimo hut dropdown values
+    "config.junimo-huts.auto-detect": "自动检测",
+    "config.junimo-huts.ignore": "忽略它们",
+    "config.junimo-huts.move-into-chests": "从Junimo小屋移动到箱子",
+    "config.junimo-huts.move-into-huts": "从箱子移动到Junimo小屋",
+
+    // machine overrides
+    "config.title.machine-overrides": "机器覆盖",
+    "config.override.ShippingBin-name": "出货箱",
+    "config.override.MiniShippingBin-name": "迷你出货箱",
+    "config.override.desc": "是否启用 {machineName} 自动化。",
+    "config.custom-overrides-note": "有关自定义覆盖，请参阅 https://github.com/Pathoschild/StardewMods/tree/develop/Automate#configure 以获取直接编辑 config.json 文件的帮助。"
+}

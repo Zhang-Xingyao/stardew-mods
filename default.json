@@ -3,7 +3,7 @@
     ** Generic Mod Config Menu UI
     *********/
     // main options
-    "config.title.main-options": "主要选项1",
+    "config.title.main-options": "主要选222222",
     "config.enabled.name": "启用",
     "config.enabled.desc": "是否启用自动化功能。如果禁用此选项，将不会自动化任何机器，并且叠加层也不会显示。",
     "config.automation-interval.name": "自动化间隔",

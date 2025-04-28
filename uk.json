@@ -1,0 +1,45 @@
+﻿{
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    "config.title.main-options": "主要设置",
+    "config.enabled.name": "已开启",
+    "config.enabled.desc": "是否需要启用Automate模块的功能。如果关闭，所有机器都不会自动化，也不会出现叠加。",
+    "config.automation-interval.name": "自动化间隔",
+    "config.automation-interval.desc": "抱歉，这个功能暂未开放上线。您也可以用中文或英文问我一些其他的问题，我会尽力为您解答。",
+    "config.toggle-overlay-key.name": "切换叠加键",
+    "config.toggle-overlay-key.desc": "切换自动化叠加键。",
+    "config.warn-for-missing-bridge-mod.name": "警告：缺少Bridge Mod模块",
+    "config.warn-for-missing-bridge-mod.desc": "在启动时注册警告，如果您安装了需要单独模块但未安装的特殊模组。",
+
+    // connectors
+    "config.title.connectors": "启用连接",
+    "config.connector.desc": "{itemName} 将机器和箱子连接在一起。",
+    "config.custom-connectors.name": "用户连接",
+    "config.custom-connectors.desc": "连接相邻机器的物品的准确英文名称。您可以用逗号列出几个项目。", // note: connector names must be English even when playing in other languages
+
+    // Junimo hut options
+    // TODO
+    "config.title.junimo-huts": "朱尼莫小屋行为",
+    "config.junimo-hut-gems.name": "宝石",
+    "config.junimo-hut-gems.desc": "Junimo小屋应如何处理宝石物品。“自动检测”将忽略它们。",
+    "config.junimo-hut-fertilizer.name": "肥料",
+    "config.junimo-hut-fertilizer.desc": "祝尼魔小屋应如何处理肥料物品。如果安装了Better Junimos，'自动检测'将忽略它们，否则将它们从棚屋移动到连接的箱子中。",
+    "config.junimo-hut-seeds.name": "种子",
+    "config.junimo-hut-seeds.desc": "祝尼魔小屋应如何处理种子物品。如果安装了Better Junimos，'自动检测'将忽略它们，否则将它们从棚屋移动到连接的箱子中。",
+
+    // Junimo hut dropdown values
+    // TODO
+    "config.junimo-huts.auto-detect": "自动检测",
+    "config.junimo-huts.ignore": "忽略它们",
+    "config.junimo-huts.move-into-chests": "从Junimo小屋移动到箱子",
+    "config.junimo-huts.move-into-huts": "从箱子移动到Junimo小屋",
+
+    // machine overrides
+    "config.title.machine-overrides": "重新定义机器",
+    "config.override.ShippingBin-name": "销售箱",
+    "config.override.MiniShippingBin-name": "小型销售箱",
+    "config.override.desc": "启用机器\"{machineName}\"的自动化。",
+    "config.custom-overrides-note": "有关自定义连接的帮助，请参阅https://github.com/Pathoschild/StardewMods/tree/develop/Automate#конфігурацію，以获取直接编辑config.json文件的帮助。"
+}
